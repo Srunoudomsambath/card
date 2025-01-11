@@ -1,0 +1,239 @@
+
+body{
+    font-family : Arial,sans-serif;
+    padding : 0;
+    margin : 0;
+    background-color: rgb(231, 214, 191);
+}
+.container{
+    max-width: 1200px;
+    margin : auto;
+
+}
+header{
+    text-align: center;
+    font-size: 25px;
+    color:#1331a7;
+}
+.bookmark {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 20px;
+ }
+ .navmain {
+    margin: auto;
+    max-width: auto;
+    position: sticky;
+    top: 0;
+    color:white;
+    z-index: 1000;
+    width: 100%; /* Use 100% for responsive width */
+    height: 50px; /* Fixed the issue with '50 px' */
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0427b3;
+    padding-left: 60px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+/* .navmain{
+    max-width:none;
+    position: sticky;
+    top : 0;
+    z-index:1000;
+    width:auto;
+    height: fit-content;
+    padding: 10px 10px;
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0427b3;
+    height : 50 px;
+    padding-left: 90px;
+    padding-right: 100px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); 
+} */
+
+.logo{
+    color : white;
+    font-size: 35px;
+}
+/* nav ul{
+    display : flex;
+    gap : 30px
+}
+nav ul :hover{
+    color: rgb(49, 8, 8);
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration : none;
+    color : white;
+    font-size: 25px;
+    padding : 100px;
+} */
+.button1:hover, .button2:hover {
+    background-color: rgb(255, 170, 0); 
+  }
+.button1, .button2{
+    border:none;
+    background-color: rgb(240, 146, 39);
+    padding : 12px 30px; 
+    border-radius: 30px;
+    color:#fff;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.button1{
+    margin-left: 90px;
+}
+.button2{
+    margin-right: 90px;
+}
+
+header p {
+    color :#747579; 
+}
+.detail{
+    gap: 20px;
+
+}
+.nav1{
+    justify-content: space-between;
+    gap:20px;
+    padding : 20px;
+}
+.nav2{
+    display:flex;
+    justify-content: space-evenly;
+    gap : 10px;
+    background-color: #4994da;
+    border-radius: 9px;
+    padding : 8px 20px;
+}
+button {
+    border : none;
+    padding : 10px;
+    cursor: pointer;
+    background-color: transparent;
+    transition : color 0.3s;
+    font-size:20px;
+    color: white;
+    
+}
+button:hover{
+    color : #0cdbf7;
+
+}
+.course-grid{
+    display : flex;
+    justify-content: center;
+    gap : 15px;
+    flex-wrap : wrap;
+
+}
+.course-card{
+    margin : auto;
+    margin-top : 10px;
+    border-radius: 8px;
+    max-width: 250px;
+    background-color:#fff;
+    position: relative; 
+    overflow: hidden;
+    }
+.course-image{
+    
+    display :grid;
+    justify-content: center;
+}
+.course-image img{
+    border-radius:  8px 8px 0px 0px;
+    max-width : 250px;
+    min-width : 250px;
+    
+}
+.course-card h2{
+    font-size : 20px;
+    margin : 15px 15px 10px;
+}
+.course-card p {
+    font-size : 12px;
+    margin : 15px;
+    color : #666;
+}
+.card-footer{
+    border-top: 2px solid #666;
+    display : flex;
+    justify-content: space-between;
+    font-size : 12px;
+    padding : 10px;
+    color : #888;
+
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding : 8px;
+}
+.content2{
+    display: flex;
+    justify-content: space-between;
+    padding : 8px;
+}
+.content3{
+    display: flex;
+    justify-content: space-between;
+    padding : 8px;
+}
+.content4{
+    display: flex;
+    justify-content: space-between;
+    padding : 8px;
+}
+.content span{
+    font-size:12px;
+    background-color: rgb(255, 7, 201);
+    color:rgb(7, 241, 210);
+    padding : 5px;
+
+}
+.star{
+    padding : 10px;
+    font-size: 13px;
+}
+.content2 span{
+    font-size:12px;
+    background-color: rgb(255, 218, 7);
+    color:rgb(34, 48, 2);
+    padding : 5px;
+
+}
+.content3 span{
+    font-size:12px;
+    background-color: rgb(147, 255, 7);
+    color:rgb(4, 136, 55);
+    padding : 5px;
+
+}
+.content4 span{
+    font-size:12px;
+    background-color: rgb(81, 7, 255);
+    color:rgb(7, 233, 241);
+    padding : 5px;
+
+}
+.scroll-btn{
+    font-size:25px;
+    cursor:pointer;
+    position:fixed;
+    bottom: 20px;
+    right : 20px;
+    padding :20px;
+    background-color: #f8910a;
+    border-radius: 50px;
+}

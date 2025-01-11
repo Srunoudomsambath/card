@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body background="black">
+    <form style="color: aliceblue;" >
+        <table width="100%">
+            <tr>
+                <th width="50%"></th>
+                <th width="50%"></th>
+                </tr>
+                <tr>
+                    <td>
+        <fieldset style="background: gray;">
+            <legend>information</legend>
+        <table width="100%">
+            <tr width="100%">
+                <th width="80%"></th>
+                <th width="50%"></th>
+            </tr>
+            <tr>
+             <td><label for="bdate">Date of Brith:</label></td>
+             <td><input type="date" id="bdate"></td>
+            </tr>
+            <tr>
+             <td><label for="file">Image:</label></td>
+             <td><input type="file" id="file"></td>
+            </tr>
+            <tr>
+                <td><label for="fname">Name:</label></td>
+                <td><input type="text" id="fname" placeholder="input your name" minlength="6" maxlength="6"><br></td>
+            </tr>
+            <tr>
+                <td><label for="email">email:</label></td>
+                <td><input type="email" id="email"><br></td>
+            </tr>
+            <tr>
+                <td><label for="Gender">Grader:</label></td>
+                <td><label for="Female">Female</label>
+                    <input type="radio" id="Female" value="Female" name="Gender">
+                    <label for="male">Male</label>
+                    <input type="radio" id="Female" value="male" name="Gender"></td>
+            </tr>
+            <tr>
+                <td style="position: absolute; align-items: start;"><label for="Want to be">Want to be:</label></td>
+                <td><input type="checkbox" id="Programmer" value="Programmer" name="Want to be">
+                    <label for="Programmer">Programmer</label><br>
+                    <input type="checkbox" id="Web Developer" value="Web Developer" name="Want to be">
+                    <label for="Web Developer">Web Developer</label><br>
+                    <input type="checkbox" id="Graphic Designer" value="Graphic Designer" name="Want to be">
+                    <label for="Graphic Designer">Graphic Designer</label><br>
+                    <input type="checkbox" id="Network" value="Network" name="Want to be">
+                    <label for="Network">Network</label></td>
+            </tr>
+            <tr>
+                <td><label for="Please select Language Of Program You Want to study">Please select Language Of Program You Want to study:</label></td>
+                <td>        <select style="width: 20%;">
+                    <option value="PHP">PHP</option>
+                </select>
+                <label></label>
+                <select style="width: 20%;">
+                    <optgroup label="Web">
+                        <option value="PHP">PHP</option>
+                        <option value="C#">C#</option>
+                        <option value="JAVASCRIPT">JAVASCRIPT</option>
+                        <option value="ASP NET">ASP NET</option>
+                    </optgroup>
+                    <optgroup label="Windows">
+                        <option value="VB net">VB net</option>
+                        <option value="Java">Java</option>
+                        <option value="Rubbi">Rubbi</option>
+                        <option value="C++">C++</option>
+                    </optgroup>
+                </select></td>
+            </tr>
+             </table>
+            </fieldset>
+                    </td>
+                <td>
+            <fieldset style="background: gray;">
+                <legend>Favourite</legend>
+            <table width="100%">
+                <tr width="100%">
+                    <th width="30%"></th>
+                    <th width="50%"></th>
+                </tr>
+                <tr>
+                    <td><label for="Color">Color:</label></td>
+                    
+                    <td><input type="color"><br></td>
+                </tr>
+                <tr>
+                    <td><label for="">Number you Like From 0 between 9</label></td>
+                    <td><input type="number" min="0" max="9"><br></td>
+                </tr>
+                <tr>
+                    <td><div style="display: flex; align-items: center;">
+                        <label for="">Description</label></td>
+                    <td><textarea name="" id="" cols="55" rows="9"></textarea></div></td>
+                </tr>
+                <tr>
+                    <td><label for="">Input Passwork:</label></td>
+                    <td><input type="text"></td>
+                </tr>
+            </table>
+            </fieldset>
+                </td>
+                </tr>
+        </table>  
+        </form>
+        <button>Clear</button>
+        <button>Submit</button>
+        <button>Show MSG</button>
+</body>
+</html>
